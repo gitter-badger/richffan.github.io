@@ -20,26 +20,34 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"richfan.cf","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.10.0","exturl":false,"sidebar":{"position":"right","display":"always","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-  <meta name="description" content="努力大不过天赋">
+  <meta name="description" content="MarkDown 微信公众号排版工具。问题或建议，请公众号留言。**程序员翻身**  建议使用 Chrome 浏览器，体验最佳效果。 使用微信公众号编辑器有一个十分头疼的问题：粘贴出来的代码，格式错乱，空间小还带行号，而且特别丑。Markdown.com.cn编辑器能够解决这个问题。 Markdown是一种轻量级的「标记语言」。 请阅读下方文本熟悉工具使用方法，本文可直接拷贝到微信中预览。 1 M">
 <meta property="og:type" content="website">
-<meta property="og:title" content="财富之梵刹">
-<meta property="og:url" content="http://richfan.cf/index.html">
+<meta property="og:title" content="MarkDown&amp;Front-matter的使用记录">
+<meta property="og:url" content="http://richfan.cf/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="财富之梵刹">
-<meta property="og:description" content="努力大不过天赋">
+<meta property="og:description" content="MarkDown 微信公众号排版工具。问题或建议，请公众号留言。**程序员翻身**  建议使用 Chrome 浏览器，体验最佳效果。 使用微信公众号编辑器有一个十分头疼的问题：粘贴出来的代码，格式错乱，空间小还带行号，而且特别丑。Markdown.com.cn编辑器能够解决这个问题。 Markdown是一种轻量级的「标记语言」。 请阅读下方文本熟悉工具使用方法，本文可直接拷贝到微信中预览。 1 M">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.nginx.cn/wp-content/uploads/2020/03/qrcode_for_gh_82cf87d482f0_258.jpg">
+<meta property="og:image" content="https://markdown.com.cn/images/i-am-svg.svg">
+<meta property="og:image" content="https://markdown.com.cn/images/blue.jpg">
+<meta property="og:image" content="https://markdown.com.cn/images/green.jpg">
+<meta property="og:image" content="https://markdown.com.cn.jpg/">
+<meta property="article:published_time" content="2022-02-23T09:05:01.000Z">
+<meta property="article:modified_time" content="2022-02-23T09:09:32.109Z">
 <meta property="article:author" content="richfan">
 <meta property="article:tag" content="richfan hexo richfree">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.nginx.cn/wp-content/uploads/2020/03/qrcode_for_gh_82cf87d482f0_258.jpg">
 
 
-<link rel="canonical" href="http://richfan.cf/">
+<link rel="canonical" href="http://richfan.cf/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://richfan.cf/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/","path":"2022/02/23/MarkDown&Front-matter的使用记录/","title":"MarkDown&Front-matter的使用记录"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>财富之梵刹</title>
+<title>MarkDown&Front-matter的使用记录 | 财富之梵刹</title>
   
 
 
@@ -69,7 +77,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">财富之梵刹</h1>
+      <p class="site-title">财富之梵刹</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">清净佛土</p>
@@ -107,7 +115,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -120,6 +128,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MarkDown"><span class="nav-number">1.</span> <span class="nav-text">MarkDown</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Markdown-com-cn-%E7%AE%80%E4%BB%8B"><span class="nav-number">1.1.</span> <span class="nav-text">1 Markdown.com.cn 简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B"><span class="nav-number">1.2.</span> <span class="nav-text">2 Markdown语法教程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E6%A0%87%E9%A2%98"><span class="nav-number">1.2.1.</span> <span class="nav-text">2.1 标题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.1.1.</span> <span class="nav-text">三级标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E5%AD%97%E4%BD%93"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.2 字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">2.1.3.</span> <span class="nav-text">2.3 无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="nav-number">2.1.4.</span> <span class="nav-text">2.4 有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-5-%E5%BC%95%E7%94%A8"><span class="nav-number">2.1.5.</span> <span class="nav-text">2.5 引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-7-%E9%93%BE%E6%8E%A5"><span class="nav-number">2.1.6.</span> <span class="nav-text">2.7 链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-8-%E5%9B%BE%E7%89%87"><span class="nav-number">2.1.7.</span> <span class="nav-text">2.8 图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-9-%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-number">2.1.8.</span> <span class="nav-text">2.9 分割线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-10-%E8%A1%A8%E6%A0%BC"><span class="nav-number">2.1.9.</span> <span class="nav-text">2.10 表格</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%89%B9%E6%AE%8A%E8%AF%AD%E6%B3%95"><span class="nav-number">2.2.</span> <span class="nav-text">3. 特殊语法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E8%84%9A%E6%B3%A8"><span class="nav-number">2.2.1.</span> <span class="nav-text">3.1 脚注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-number">2.2.2.</span> <span class="nav-text">3.2 代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">2.2.3.</span> <span class="nav-text">3.3 数学公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-4-TOC"><span class="nav-number">2.2.4.</span> <span class="nav-text">3.4 TOC</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-5-%E6%B3%A8%E9%9F%B3%E7%AC%A6%E5%8F%B7"><span class="nav-number">2.2.5.</span> <span class="nav-text">3.5 注音符号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-6-%E6%A8%AA%E5%B1%8F%E6%BB%91%E5%8A%A8%E5%B9%BB%E7%81%AF%E7%89%87"><span class="nav-number">2.2.6.</span> <span class="nav-text">3.6 横屏滑动幻灯片</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%85%B6%E4%BB%96%E8%AF%AD%E6%B3%95"><span class="nav-number">2.3.</span> <span class="nav-text">4 其他语法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-HTML"><span class="nav-number">2.3.1.</span> <span class="nav-text">4.1 HTML</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-UML"><span class="nav-number">2.3.2.</span> <span class="nav-text">4.2 UML</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E8%87%B4%E8%B0%A2"><span class="nav-number">2.4.</span> <span class="nav-text">5 致谢</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Front-Matter"><span class="nav-number">3.</span> <span class="nav-text">Front-Matter</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -187,16 +196,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://richfan.cf/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -209,9 +219,9 @@
       <meta itemprop="name" content="财富之梵刹">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" class="post-title-link" itemprop="url">MarkDown&Front-matter的使用记录</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          MarkDown&Front-matter的使用记录
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -235,7 +245,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="MarkDown"><a href="#MarkDown" class="headerlink" title="MarkDown"></a>MarkDown</h1><blockquote>
+        <h1 id="MarkDown"><a href="#MarkDown" class="headerlink" title="MarkDown"></a>MarkDown</h1><blockquote>
 <p>微信公众号排版工具。问题或建议，请公众号留言。**<a href="#jump_8">程序员翻身</a>**</p>
 </blockquote>
 <p>建议使用 <strong>Chrome</strong> 浏览器，体验最佳效果。</p>
@@ -384,7 +394,6 @@
 </ul>
 <h1 id="Front-Matter"><a href="#Front-Matter" class="headerlink" title="Front-Matter"></a>Front-Matter</h1><p>配置选项    默认值    描述<br>title    Markdown 的文件标题    文章标题，强烈建议填写此选项<br>date    文件创建时的日期时间    发布时间，强烈建议填写此选项，且最好保证全局唯一<br>author    根 _config.yml 中的 author    文章作者<br>img    featureImages 中的某个值    文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: <a target="_blank" rel="noopener" href="http://xxx.com/xxx.jpg">http://xxx.com/xxx.jpg</a><br>top    true    推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章<br>cover    false    v1.0.2版本新增，表示该文章是否需要加入到首页轮播封面中<br>coverImg    无    v1.0.2版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片<br>password    无    文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项<br>toc    true    是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项<br>mathjax    false    是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行<br>summary    无    文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要<br>categories    无    文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类<br>tags    无    文章标签，一篇文章可以多个标签<br>keywords    文章标题    文章关键字，SEO 时需要<br>reprintPolicy    cc_by    文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个<br>————————————————<br>版权声明：本文为CSDN博主「会飞的小弋」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/howareyou2104/article/details/106312703">https://blog.csdn.net/howareyou2104/article/details/106312703</a></p>
 
-      
     </div>
 
     
@@ -392,76 +401,39 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>richfan
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://richfan.cf/2022/02/23/MarkDown&Front-matter%E7%9A%84%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/" title="MarkDown&amp;Front-matter的使用记录">http://richfan.cf/2022/02/23/MarkDown&Front-matter的使用记录/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/02/23/hello-richfan/" rel="prev" title="你好，梵刹！">
+                  <i class="fa fa-chevron-left"></i> 你好，梵刹！
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://richfan.cf/2022/02/23/hello-richfan/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/custom-logo.png">
-      <meta itemprop="name" content="richfan">
-      <meta itemprop="description" content="努力大不过天赋">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="财富之梵刹">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/02/23/hello-richfan/" class="post-title-link" itemprop="url">你好，梵刹！</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-02-23 14:14:47 / 修改时间：16:41:59" itemprop="dateCreated datePublished" datetime="2022-02-23T14:14:47+08:00">2022-02-23</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="刹那芳华"><a href="#刹那芳华" class="headerlink" title="刹那芳华"></a>刹那芳华</h1><p>努力能否大过天赋？</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
